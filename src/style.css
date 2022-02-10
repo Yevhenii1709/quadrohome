@@ -1,6 +1,6 @@
 @import url(../src/styles/menu.css);
 @import url(../src/styles/swiper.css);
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
 .main {
   display: flex;
   align-items: center;
@@ -8,17 +8,27 @@
   height: 100vh;
   width: 100%;
   padding: 0;
-  background-color: #e74c3c;
-  /* background: url(../img/module-house-42-3.jpg) no-repeat; */
+  /* background-color: #e74c3c; */
+  background: linear-gradient(rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)), url("https://thumb.tildacdn.com/tild3665-3435-4266-a464-393930613563/-/cover/900x1800/center/center/-/format/webp/noroot.png");
+  background-size: cover;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
 }
 .header {
+  width: 100%;
   margin: 0;
 }
 .navi {
+  visibility: hidden; /* off */
+  position: absolute;
   width: 100%;
   display: flex;
   margin: 30px 0px;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #f1c40f;
 }
 .change-lang {
@@ -28,17 +38,62 @@
   height: 25px;
   left: 100px;
 }
-.logo {
-  display: block;
-  align-items: center;
+.logo-bg {
+  width: 100%;
   background-color: #ecf0f1;
+}
+.logo {
+  margin: 40px;
+  width: 300px;
+  height: 100%;
 }
 .row-head {
   text-align: center;
-  background-color: #9b59b6;
-  margin-top: 50px;
+  margin: 50px 10px;
 }
-.im {
+.row-head h1 {
+  color: #fff
+}
+.row-head span {
+  line-height: 20px;
+  font-size: 26px;
+  color: #fff
+}
+.button {
+  height: 40px;
+  width: 300px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 13, 250);
+  border-radius: 3px;
+  text-transform: uppercase;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 20px 0px;
+  transition-delay: 0.8s;
+}
+
+.about {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+}
+.about-wraper {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.text-about {
+  padding: 0px 20px;
+}
+.photo-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0px 25px;
+}
+.photo-wraper {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+
 }
