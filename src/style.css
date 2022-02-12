@@ -178,6 +178,7 @@ margin-bottom: 45px;
 }
 .ivent {
   padding: 0px 20px;
+  margin-top: 40px;
   text-align: left;
 }
 .ivent img {
@@ -203,9 +204,9 @@ margin-bottom: 45px;
   letter-spacing: 2.5px;
 }
 .ivent-btn {
+  display: inline-block;
   font-family: 'Roboto',Arial,sans-serif;
   text-align: center;
-  vertical-align: middle;
   height: 45px;
   font-size: 14px;
   font-weight: 700;
@@ -213,4 +214,46 @@ margin-bottom: 45px;
   margin-top: 15px;
   color: #ffffff;
   background-color: #1f5bff;
+  box-sizing: border-box;
+  border-radius: 22.5px;
+}
+.ivent-btn span {
+  position: relative;
+  top: 10px;
+}
+.subscribe-wraper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.80),
+  rgba(0,0,0,0.90)), url("	https://thumb.tildacdn.com/tild3964-3831-4932-b334-336562653062/-/format/webp/blob.png");
+  background-size: cover;
+  background-position: center center;
+}
+.subscribe {
+  padding: 0 20px;
+  text-align: center;
+}
+.subscribe h1 {
+  color: #fff;
+  margin-bottom: 32px;
+}
+.form {
+  width: 100%;
+}
+.input-wraper {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.subscribe-btn {
+  color: #ffffff;
+  background-color: #f5914f;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
 }
