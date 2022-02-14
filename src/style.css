@@ -53,8 +53,8 @@ h1 {
 }
 .row-head h1 {
   color: #fff;
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 30px;
+  line-height: 30px;
 }
 .row-head span {
   line-height: 20px;
@@ -67,6 +67,7 @@ h1 {
   justify-content: center;
   height: 60px;
   width: 250px;
+  margin-top: 45px;
   background-color: rgb(52, 13, 250);
   border-radius: 3px;
   text-transform: uppercase;
@@ -85,6 +86,7 @@ h1 {
   display: block;
   width: 100%;
   height: 100vh;
+  background-color: #f5f5f5;
 }
 .about-wraper {
   display: flex;
@@ -116,7 +118,7 @@ h1 {
 }
 .services {
   text-align: center;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 .services-top {
 padding-top: 90px;
@@ -238,22 +240,100 @@ margin-bottom: 45px;
 .subscribe h1 {
   color: #fff;
   margin-bottom: 32px;
+  line-height: 1.23;
+  font-size: 30px;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
 }
 .form {
   width: 100%;
 }
 .input-wraper {
-  margin-bottom: 30px;
+  margin-bottom: 30px;  
+  box-sizing: inherit;
+}
+.input-wraper input {
   width: 100%;
   height: 50px;
   color: #ffffff;
-  border: 1px solid #ffffff;
   background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: transparent;
+  padding: 0 20px;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.33;
+  box-sizing: border-box;
+  outline: none;
 }
 .subscribe-btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.subscribe-btn button {
   color: #ffffff;
   background-color: #f5914f;
   width: 100%;
   height: 50px;
+  padding: 0 40px;
+  text-align: center;
+  border: 0 none;
   border-radius: 3px;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.quadro_photo {
+  background-color: #f2f2f2;
+}
+footer {
+  padding: 90px 0px;
+}
+.contacts {
+  text-align: center;
+  padding: 0px 20px;
+}
+.our {
+  margin-bottom: 45px;
+  font-size: 12px;
+  line-height: 1.35;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.our-numb {
+  font-size: 28px;
+  line-height: 1.23;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
+}
+.we-socil {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 1.45;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+}
+.sociallinks {
+  margin-top: 40px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+.sociallinks-item {
+  vertical-align: center;
+  width: 50px;
+  height: 50px;
+  margin: 4px 1px 0;
+  display: inline-block;
+}
+.swiper-button-next {
+  width: 24px;
+  height: 24px;
 }

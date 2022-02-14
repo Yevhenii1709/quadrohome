@@ -21,7 +21,7 @@
               <span></span>
             </label>
             <ul class="menu__box">
-              <li><a class="menu__item" href="#">О проекте</a></li>
+              <li><a class="menu__item" href="#about">О проекте</a></li>
               <li><a class="menu__item" href="#">Услуги</a></li>
               <li><a class="menu__item" href="#">Афиша</a></li>
               <li></li>
@@ -45,10 +45,10 @@
         <span><strong>Quadro Home</strong>- ваше место обучения, инсайтов и прогресса.</span>
       </div>
       <div class="button">
-        <a href="http://">Узнать подробнее</a>
+        <a href="#about">Узнать подробне</a>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-wraper">
         <div class="text-about">
           <h1>О проекте</h1>
@@ -109,10 +109,11 @@
       <div class="quote-row">
         <q>80% успеха - это появиться в нужном месте в нужное время.</q>
         <cite>Вуди Аллен</cite>
-        <div class="button vatch-poster">Смотреть афишу</div>
+        <div class="button vatch-poster"><a href="#poster">Смотреть афишу</a>
+      </div>
       </div>
     </section>
-    <section class="poster-ivents">
+    <section class="poster-ivents" id="poster">
       <h1>Афиша мероприятий</h1>
       <div class="ivent">
         <img src="./img/poster1.jpeg" alt="" srcset="">
@@ -175,7 +176,37 @@
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="contacts">
+        <div class="our">НАШИ КОНТАКТЫ:</div>
+        <div class="our-numb">
+          +38 063 817 55 99
+          <br>
+          quadrohome.od.ua
+        </div>
+        <div class="we-socil">Мы в социальных сетях:</div>
+        <div class="sociallinks">
+          <div class="sociallinks-item">
+            <a href="https://uk-ua.facebook.com/">
+              <i class="fa-brands fa-facebook"></i>
+              <img src="./img/icons/facebook-brands.svg" alt="">
+            </a>
+          </div>
+          <div class="sociallinks-item">
+            <a href="https://www.youtube.com/">
+              <i class="fa-brands fa-youtube"></i>
+              <img src="./img/icons/youtube-brands.svg" alt="">
+            </a>
+          </div>
+          <div class="sociallinks-item">
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i>
+              <img src="./img/icons/instagram-brands.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="./src/js/swiper.js"></script>
     <script src="./src/index.js"></script>
