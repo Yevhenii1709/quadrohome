@@ -1,17 +1,20 @@
-@import url(../src/styles/menu.css);
-@import url(../src/styles/swiper.css);
+@import url(./styles/swiper.css);
+@import url(./styles/mobile.css);
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
-.main {
+ .main {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  padding: 0;
-  /* background-color: #e74c3c; */
+  /* padding: 0; */
   background: linear-gradient(rgba(0,0,0,0.5),
-  rgba(0,0,0,0.5)), url("https://thumb.tildacdn.com/tild3665-3435-4266-a464-393930613563/-/cover/900x1800/center/center/-/format/webp/noroot.png");
+  rgba(0,0,0,0.5)), url(../img/main-bg.jpg);
   background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  /* background-attachment: fixed; */
+  /* overflow: hidden; */
 }
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -23,13 +26,41 @@ h1 {
   margin: 0;
 }
 .navi {
-  visibility: hidden; /* off */
-  position: absolute;
-  width: 100%;
   display: flex;
-  margin: 30px 0px;
-  justify-content: space-around;
-  background-color: #f1c40f;
+  justify-content: space-between;
+}
+.logo_wrapper {
+  display: table;
+  height: inherit;
+  background-color: #ecf0f1;
+}
+.logo {
+  max-width: 310px;
+  height: auto;
+  display: block;
+}
+.left_wrapper {
+  height: 100px;
+}
+.menu_wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.menu_wrapper li {
+  list-style-type: none;
+}
+.menu_item {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-size: 16px;
+}
+.right_wrapper {
+  height: 100px;
+  display: flex;
 }
 .change-lang {
   display: block;
@@ -38,25 +69,25 @@ h1 {
   height: 25px;
   left: 100px;
 }
-.logo-bg {
-  width: 100%;
-  background-color: #ecf0f1;
-}
-.logo {
-  margin: 40px;
-  width: 300px;
-  height: 100%;
+.top_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .row-head {
-  text-align: center;
-  margin: 50px 10px;
+  padding: 20px;
 }
 .row-head h1 {
-  color: #fff;
-  font-size: 30px;
-  line-height: 30px;
+  font-family: Roboto;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition-delay: 0s;
+  color: #fff
 }
-.row-head span {
+.row-head div {
+  text-align: center;
   line-height: 20px;
   font-size: 26px;
   color: #fff
@@ -77,12 +108,9 @@ h1 {
 .button a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-size: 16px;
   font-weight: 700;
-  box-sizing: border-box;
 }
-.about {
+/*.about {
   display: block;
   width: 100%;
   height: 100vh;
@@ -118,7 +146,6 @@ h1 {
 }
 .services {
   text-align: center;
-  /* background-color: #f5f5f5; */
 }
 .services-top {
 padding-top: 90px;
@@ -155,7 +182,6 @@ margin-bottom: 45px;
    rgba(0,0,0,0.90)), url("https://thumb.tildacdn.com/tild6433-6564-4637-a664-633236363765/-/cover/1027x560/center/center/-/format/webp/blob.png");
   background-size: cover;
   background-position: center center;
-  /* background-color: -webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.90)); */
 }
 .quote-row {
   padding: 0px 20px;
@@ -323,8 +349,6 @@ footer {
 }
 .sociallinks {
   margin-top: 40px;
-  /* display: flex;
-  justify-content: space-around; */
 }
 .sociallinks-item {
   vertical-align: center;
@@ -336,4 +360,4 @@ footer {
 .swiper-button-next {
   width: 24px;
   height: 24px;
-}
+} */
