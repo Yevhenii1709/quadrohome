@@ -164,7 +164,7 @@ h1 {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.45;
-}
+}*/
 .photo-about {
   display: flex;
   flex-direction: row;
@@ -179,7 +179,7 @@ h1 {
   margin: 10px;
 
 }
-.services {
+/*.services {
   text-align: center;
 }
 .services-top {
