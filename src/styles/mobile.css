@@ -41,21 +41,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 0;
   }
   .row-head {
     text-align: center;
     margin: 50px 10px;
+    padding: 0;
   }
-  .row-head h1 {
+  /* .row-head span {
     color: #fff;
     font-size: 30px;
     line-height: 30px;
-  }
+    letter-spacing: 1px;
+    font-weight: 600;
+  } */
   .row-head div {
-    line-height: 20px;
+    margin-top: 40px;
+    /* line-height: 20px;
     font-size: 26px;
-    color: #fff
+    color: #fff */
   }
   .button {
     display: flex;
@@ -314,8 +318,6 @@
   }
   .sociallinks {
     margin-top: 40px;
-    /* display: flex;
-    justify-content: space-around; */
   }
   .sociallinks-item {
     vertical-align: center;
@@ -323,6 +325,16 @@
     height: 50px;
     margin: 4px 1px 0;
     display: inline-block;
+  }
+  .sociallinks-item a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+  .fa-brands {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
   }
   .swiper-button-next {
     width: 24px;
