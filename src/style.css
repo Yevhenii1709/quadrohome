@@ -1,20 +1,17 @@
 @import url(./styles/swiper.css);
-@import url(./styles/mobile.css);
+@import url(./styles/smallScreen.css);
+@import url(./styles/bigScreen.css);
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
- .main {
+.main {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  /* padding: 0; */
   background: linear-gradient(rgba(0,0,0,0.5),
   rgba(0,0,0,0.5)), url(../img/main-bg.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
   background-position: center;
-  /* background-attachment: fixed; */
-  /* overflow: hidden; */
 }
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -107,8 +104,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 .row-head {
 }
@@ -145,58 +140,31 @@ h1 {
   text-decoration: none;
   font-weight: 700;
 }
-.about {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-color: #f5f5f5;
-}
-.about-wraper {
-  display: flex;
-  /* flex-direction: column; */
-  padding: 100px 0px;
-}
-/*.text-about {
-  padding: 0px 20px;
-}
+/*пересмотреть код выше*/
 .text-about p {
   font-family: 'Roboto',Arial,sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.45;
-}*/
+}
 .photo-about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 30px;
-  padding: 0px 25px;
 }
 .photo-wraper {
-  width: 150px;
-  height: 150px;
   margin: 10px;
-
 }
-/*.services {
+.services {
   text-align: center;
 }
 .services-top {
 padding-top: 90px;
 padding-bottom: 120px;
 }
-.services-top h1 {
-margin-bottom: 45px;
-}
 .servic-wrapper {
   text-align: center;
-  float: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0;
-  box-sizing: border-box;
-  margin: 0px 20px 45px 20px;
 }
 .servic-wrapper img {
   width: 90px;
@@ -213,186 +181,8 @@ margin-bottom: 45px;
   height: 560px;
   display: flex;
   align-items: center;
-  background-image:-webkit-linear-gradient(top, rgba(0,0,0,0.80),
-   rgba(0,0,0,0.90)), url("https://thumb.tildacdn.com/tild6433-6564-4637-a664-633236363765/-/cover/1027x560/center/center/-/format/webp/blob.png");
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("https://thumb.tildacdn.com/tild6433-6564-4637-a664-633236363765/-/cover/1027x560/center/center/-/format/webp/blob.png");
   background-size: cover;
   background-position: center center;
 }
-.quote-row {
-  padding: 0px 20px;
-  font-size: 20px;
-  text-align: left;
-  line-height: 30px;
-  font-weight: 700;
-  color: #fff;
-}
-.quote-row cite {
-  font-style: italic;
-  font-weight: 300;
-}
-.vatch-poster {
-  margin-top: 60px;
-  width: 100%;
-  background-color: #050dff;
-}
-.poster-ivents {
-  padding: 90px 0px;
-  text-align: center;
-}
-.ivent {
-  padding: 0px 20px;
-  margin-top: 40px;
-  text-align: left;
-}
-.ivent img {
-  width: 100%;
-}
-.ivent-title {
-  margin-top: 20px;
-}
-.ivent-title p {
-  margin: 0px 0px 15px;
-  font-size: 24px;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 600;
-  color: #000;
-  line-height: 1.17;
-}
-.ivent-date {
-  padding-bottom: 10px;
-  color: #ff8562;
-  font-size: 10px;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 600;
-  letter-spacing: 2.5px;
-}
-.ivent-btn {
-  display: inline-block;
-  font-family: 'Roboto',Arial,sans-serif;
-  text-align: center;
-  height: 45px;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 0px 20px;
-  margin-top: 15px;
-  color: #ffffff;
-  background-color: #1f5bff;
-  box-sizing: border-box;
-  border-radius: 22.5px;
-}
-.ivent-btn span {
-  position: relative;
-  top: 10px;
-}
-.subscribe-wraper {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.80),
-  rgba(0,0,0,0.90)), url("	https://thumb.tildacdn.com/tild3964-3831-4932-b334-336562653062/-/format/webp/blob.png");
-  background-size: cover;
-  background-position: center center;
-}
-.subscribe {
-  padding: 0 20px;
-  text-align: center;
-}
-.subscribe h1 {
-  color: #fff;
-  margin-bottom: 32px;
-  line-height: 1.23;
-  font-size: 30px;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 600;
-}
-.form {
-  width: 100%;
-}
-.input-wraper {
-  margin-bottom: 30px;  
-  box-sizing: inherit;
-}
-.input-wraper input {
-  width: 100%;
-  height: 50px;
-  color: #ffffff;
-  background-color: transparent;
-  outline: none;
-  border: 1px solid #ffffff;
-  outline: none;
-  background-color: transparent;
-  padding: 0 20px;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-size: 16px;
-  line-height: 1.33;
-  box-sizing: border-box;
-  outline: none;
-}
-.subscribe-btn {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.subscribe-btn button {
-  color: #ffffff;
-  background-color: #f5914f;
-  width: 100%;
-  height: 50px;
-  padding: 0 40px;
-  text-align: center;
-  border: 0 none;
-  border-radius: 3px;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
-}
-.quadro_photo {
-  background-color: #f2f2f2;
-}
-footer {
-  padding: 90px 0px;
-}
-.contacts {
-  text-align: center;
-  padding: 0px 20px;
-}
-.our {
-  margin-bottom: 45px;
-  font-size: 12px;
-  line-height: 1.35;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 600;
-  color: #000;
-}
-.our-numb {
-  font-size: 28px;
-  line-height: 1.23;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 600;
-}
-.we-socil {
-  margin-top: 45px;
-  font-size: 14px;
-  line-height: 1.45;
-  font-family: 'Roboto',Arial,sans-serif;
-  font-weight: 300;
-}
-.sociallinks {
-  margin-top: 40px;
-}
-.sociallinks-item {
-  vertical-align: center;
-  width: 50px;
-  height: 50px;
-  margin: 4px 1px 0;
-  display: inline-block;
-}
-.swiper-button-next {
-  width: 24px;
-  height: 24px;
-} */
