@@ -1,4 +1,7 @@
 @media (min-width: 1200px) {
+  .row-head {
+    margin-bottom: 20px;
+  }
   .about {
     display: block;
     width: 100%;

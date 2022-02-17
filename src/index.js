@@ -1,3 +1,3 @@
 const select = document.querySelector('select');
 
-// select.addEventListener('change', changeURLLanguage);
+select.addEventListener('change', changeURLLanguage);
