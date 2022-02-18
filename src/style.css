@@ -185,3 +185,93 @@ padding-bottom: 120px;
   background-size: cover;
   background-position: center center;
 }
+.ivent-title p {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #000;
+}
+.ivent-date {
+  color: #ff8562;
+  font-family: "Roboto", Arial, sans-serif;
+}
+.ivent-btn {
+  display: inline-block;
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 20px;
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #1f5bff;
+  box-sizing: border-box;
+  border-radius: 22.5px;
+}
+.ivent-btn span {
+  position: relative;
+  top: 10px;
+}
+.quadro_photo {
+  background-color: #f2f2f2;
+}
+.subscribe-wraper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("	https://thumb.tildacdn.com/tild3964-3831-4932-b334-336562653062/-/format/webp/blob.png");
+  background-size: cover;
+  background-position: center center;
+}
+.subscribe {
+  padding: 0 20px;
+  text-align: center;
+}
+.subscribe h1 {
+  color: #fff;
+  margin-bottom: 32px;
+  line-height: 1.23;
+  /* font-size: 30px; */
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+}
+.input-wraper input {
+  /* width: 100%;
+  height: 50px; */
+  color: #ffffff;
+  background-color: transparent;
+  /* outline: none; */
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: transparent;
+  /* padding: 0 20px; */
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.33;
+  box-sizing: border-box;
+  outline: none;
+}
+.subscribe-btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.subscribe-btn button {
+  color: #ffffff;
+  background-color: #f5914f;
+  /* width: 100%; */
+  /* height: 50px; */
+  /* padding: 0 40px; */
+  text-align: center;
+  border: 0 none;
+  border-radius: 3px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  /* margin: 0; */
+  box-sizing: border-box;
+  outline: none;
+}
+

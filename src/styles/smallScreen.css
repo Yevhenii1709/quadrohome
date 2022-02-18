@@ -119,16 +119,6 @@
     font-size: 12px;
     line-height: 1.45;
   }
-  /* .quote {
-    width: 100%;
-    height: 560px;
-    display: flex;
-    align-items: center;
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
-      url("https://thumb.tildacdn.com/tild6433-6564-4637-a664-633236363765/-/cover/1027x560/center/center/-/format/webp/blob.png");
-    background-size: cover;
-    background-position: center center;
-  } */
   .quote-row {
     padding: 0px 20px;
     font-size: 20px;
@@ -166,30 +156,23 @@
   .ivent-title p {
     margin: 0px 0px 15px;
     font-size: 24px;
-    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
-    color: #000;
     line-height: 1.17;
   }
   .ivent-date {
     padding-bottom: 10px;
-    color: #ff8562;
     font-size: 10px;
-    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
     letter-spacing: 2.5px;
   }
   .ivent-btn {
     display: inline-block;
-    font-family: "Roboto", Arial, sans-serif;
     text-align: center;
     height: 45px;
     font-size: 14px;
     font-weight: 700;
     padding: 0px 20px;
     margin-top: 15px;
-    color: #ffffff;
-    background-color: #1f5bff;
     box-sizing: border-box;
     border-radius: 22.5px;
   }
@@ -198,26 +181,17 @@
     top: 10px;
   }
   .subscribe-wraper {
-    display: flex;
-    align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
-      url("	https://thumb.tildacdn.com/tild3964-3831-4932-b334-336562653062/-/format/webp/blob.png");
-    background-size: cover;
-    background-position: center center;
   }
   .subscribe {
     padding: 0 20px;
     text-align: center;
   }
   .subscribe h1 {
-    color: #fff;
     margin-bottom: 32px;
     line-height: 1.23;
     font-size: 30px;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 600;
   }
   .form {
     width: 100%;
@@ -229,18 +203,9 @@
   .input-wraper input {
     width: 100%;
     height: 50px;
-    color: #ffffff;
-    background-color: transparent;
     outline: none;
-    border: 1px solid #ffffff;
     outline: none;
-    background-color: transparent;
     padding: 0 20px;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.33;
-    box-sizing: border-box;
-    outline: none;
   }
   .subscribe-btn {
     display: block;
@@ -248,24 +213,13 @@
     height: 100%;
   }
   .subscribe-btn button {
-    color: #ffffff;
-    background-color: #f5914f;
     width: 100%;
     height: 50px;
     padding: 0 40px;
-    text-align: center;
-    border: 0 none;
-    border-radius: 3px;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
     margin: 0;
-    box-sizing: border-box;
-    outline: none;
   }
   .quadro_photo {
-    background-color: #f2f2f2;
+    height: 50vh;
   }
   footer {
     padding: 90px 0px;
