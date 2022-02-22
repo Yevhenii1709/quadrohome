@@ -225,45 +225,45 @@
     padding: 90px 0px;
   }
   .contacts {
-    text-align: center;
+    /* text-align: center; */
     padding: 0px 20px;
   }
   .our {
     margin-bottom: 45px;
     font-size: 12px;
     line-height: 1.35;
-    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
     font-weight: 600;
-    color: #000;
+    /* color: #000; */
   }
   .our-numb {
     font-size: 28px;
     line-height: 1.23;
-    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
     font-weight: 600;
   }
-  .we-socil {
+  .we-social {
     margin-top: 45px;
     font-size: 14px;
     line-height: 1.45;
-    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
     font-weight: 300;
   }
   .sociallinks {
     margin-top: 40px;
   }
   .sociallinks-item {
-    vertical-align: center;
+    /* vertical-align: center; */
     width: 50px;
     height: 50px;
     margin: 4px 1px 0;
-    display: inline-block;
+    /* display: inline-block; */
   }
-  .sociallinks-item a {
+  /* .sociallinks-item a {
     text-decoration: none;
     width: 100%;
     height: 100%;
-  }
+  } */
   .fa-brands {
     color: #000;
     font-size: 50px;

@@ -232,20 +232,15 @@ padding-bottom: 120px;
   color: #fff;
   margin-bottom: 32px;
   line-height: 1.23;
-  /* font-size: 30px; */
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 600;
 }
 .input-wraper input {
-  /* width: 100%;
-  height: 50px; */
   color: #ffffff;
   background-color: transparent;
-  /* outline: none; */
   border: 1px solid #ffffff;
   outline: none;
   background-color: transparent;
-  /* padding: 0 20px; */
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.33;
@@ -254,15 +249,11 @@ padding-bottom: 120px;
 }
 .subscribe-btn {
   display: block;
-  width: 100%;
   height: 100%;
 }
 .subscribe-btn button {
   color: #ffffff;
   background-color: #f5914f;
-  /* width: 100%; */
-  /* height: 50px; */
-  /* padding: 0 40px; */
   text-align: center;
   border: 0 none;
   border-radius: 3px;
@@ -270,8 +261,48 @@ padding-bottom: 120px;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  /* margin: 0; */
   box-sizing: border-box;
   outline: none;
 }
-
+footer {
+  padding: 90px 0px;
+}
+.contacts {
+  text-align: center;
+}
+.our {
+  margin-bottom: 45px;
+  /* font-size: 12px; */
+  line-height: 1.35;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.our-numb {
+  /* font-size: 28px; */
+  line-height: 1.23;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+}
+.we-social {
+  margin-top: 45px;
+  /* font-size: 14px; */
+  line-height: 1.45;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+}
+.sociallinks {
+  margin-top: 40px;
+}
+.sociallinks-item {
+  vertical-align: center;
+  width: 50px;
+  height: 50px;
+  margin: 4px 1px 0;
+  display: inline-block;
+}
+.sociallinks-item a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
