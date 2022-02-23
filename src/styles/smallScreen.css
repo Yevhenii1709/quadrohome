@@ -21,11 +21,11 @@
   }
   .logo_wrapper {
     padding: 20px;
-    background-color: #ecf0f1;
   }
   .logo {
     padding: 20px;
     width: 100%;
+    margin: 0;
   }
   .left_wrapper {
     position: absolute;

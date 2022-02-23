@@ -32,7 +32,7 @@ h1 {
   background-color: #ecf0f1;
 }
 .logo {
-  max-width: 310px;
+  /* max-width: 310px; */
   height: auto;
   display: block;
 }
@@ -82,10 +82,12 @@ h1 {
 .link_wrapper {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
 }
 .top_links-item {
-  width: 35px;
-  height: 35px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
   padding: 0 5px;
 }
 .top_links-item a {
@@ -279,14 +281,12 @@ footer {
   color: #000;
 }
 .our-numb {
-  /* font-size: 28px; */
   line-height: 1.23;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 600;
 }
 .we-social {
   margin-top: 45px;
-  /* font-size: 14px; */
   line-height: 1.45;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
